@@ -2,8 +2,8 @@ function Sidebar() {
   return (
     <>
       <header className="sticky top-0 z-20 border-b border-slate-200 bg-white px-6 py-4 shadow-sm lg:hidden dark:bg-slate-800 dark:text-white dark:border-slate-700">
-        <h1 className="text-xl font-bold text-slate-900">Analytics</h1>
-        <p className="text-sm text-slate-500">Dashboard empresarial</p>
+        <h1 className="text-xl font-bold text-slate-900 dark:text-slate-400">Analytics</h1>
+        <p className="text-sm text-slate-500 dark:text-slate-400">Dashboard empresarial</p>
       </header>
 
       <aside className="fixed left-0 top-0 hidden h-full w-64 border-r border-slate-200 bg-white p-6 lg:block dark:bg-slate-800 dark:text-white dark:border-slate-700">
