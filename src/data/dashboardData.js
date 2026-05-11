@@ -39,3 +39,37 @@ export const categoryData = [
   { name: 'Ropa', value: 20 },
   { name: 'Oficina', value: 20 },
 ]
+export const recentSales = [
+  {
+    id: 1,
+    customer: 'Carlos Méndez',
+    product: 'Laptop Lenovo',
+    amount: 5200,
+    status: 'Completado',
+    date: '2026-03-10',
+  },
+  {
+    id: 2,
+    customer: 'María López',
+    product: 'Monitor Dell',
+    amount: 1450,
+    status: 'Pendiente',
+    date: '2026-03-11',
+  },
+  {
+    id: 3,
+    customer: 'Luis García',
+    product: 'Teclado mecánico',
+    amount: 650,
+    status: 'Completado',
+    date: '2026-03-12',
+  },
+  {
+    id: 4,
+    customer: 'Ana Pérez',
+    product: 'Mouse inalámbrico',
+    amount: 250,
+    status: 'Cancelado',
+    date: '2026-03-13',
+  },
+]
