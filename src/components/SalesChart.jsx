@@ -10,8 +10,8 @@ import {
 
 function SalesChart({ data }) {
   return (
-    <div className="h-80 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-      <h3 className="mb-4 text-lg font-semibold text-slate-800">Ventas mensuales</h3>
+    <div className="h-80 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:bg-slate-800 dark:text-white dark:border-slate-700">
+      <h3 className="mb-4 text-lg font-semibold text-slate-800 dark:text-slate-400">Ventas mensuales</h3>
 
       <ResponsiveContainer width="100%" height="85%">
         <LineChart data={data}>

@@ -14,18 +14,18 @@ function DashboardPage() {
     <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
       <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
-          <h2 className="text-2xl font-bold text-slate-900">Dashboard general</h2>
-          <p className="mt-1 text-slate-500">Resumen de métricas y rendimiento.</p>
+          <h2 className="text-2xl font-bold text-slate-900 dark:text-slate-400">Dashboard general</h2>
+          <p className="mt-1 text-slate-500 dark:text-slate-400">Resumen de métricas y rendimiento.</p>
         </div>
 
         <div>
-          <label className="mb-1 block text-sm font-medium text-slate-700">
+          <label className="mb-1 block text-sm font-medium text-slate-700 dark:text-slate-400">
             Período
           </label>
           <select
             value={selectedPeriod}
             onChange={(e) => setSelectedPeriod(e.target.value)}
-            className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100"
+            className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 dark:bg-slate-800 dark:text-white dark:border-slate-600"
           >
             {Object.entries(periodData).map(([key, period]) => (
               <option key={key} value={key}>
