@@ -1,5 +1,7 @@
 import MetricCard from '../components/MetricCard'
-import { metrics } from '../data/dashboardData'
+import SalesChart from '../components/SalesChart'
+import CategoryChart from '../components/CategoryChart'
+import { metrics, salesData, categoryData } from '../data/dashboardData'
 
 function DashboardPage() {
   return (
@@ -16,6 +18,11 @@ function DashboardPage() {
             description={metric.description}
           />
         ))}
+      </div>
+
+      <div className="mt-6 grid gap-6 xl:grid-cols-2">
+        <SalesChart data={salesData} />
+        <CategoryChart data={categoryData} />
       </div>
     </div>
   )

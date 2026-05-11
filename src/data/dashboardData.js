@@ -24,3 +24,18 @@ export const metrics = [
     description: 'Tasa de conversión mensual',
   },
 ]
+export const salesData = [
+  { month: 'Ene', ventas: 12000 },
+  { month: 'Feb', ventas: 18500 },
+  { month: 'Mar', ventas: 16000 },
+  { month: 'Abr', ventas: 22000 },
+  { month: 'May', ventas: 27500 },
+  { month: 'Jun', ventas: 31000 },
+]
+
+export const categoryData = [
+  { name: 'Tecnología', value: 35 },
+  { name: 'Hogar', value: 25 },
+  { name: 'Ropa', value: 20 },
+  { name: 'Oficina', value: 20 },
+]
