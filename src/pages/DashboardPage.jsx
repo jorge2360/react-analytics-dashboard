@@ -11,7 +11,7 @@ function DashboardPage() {
   const currentData = periodData[selectedPeriod]
 
   return (
-    <div className="mx-auto max-w-7xl px-6 py-6">
+    <div className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
       <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
           <h2 className="text-2xl font-bold text-slate-900">Dashboard general</h2>
