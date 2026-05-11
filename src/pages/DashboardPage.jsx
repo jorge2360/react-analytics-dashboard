@@ -43,7 +43,8 @@ function DashboardPage() {
             title={metric.title}
             value={metric.value}
             description={metric.description}
-          />
+            icon={metric.icon}
+            />
         ))}
       </div>
 

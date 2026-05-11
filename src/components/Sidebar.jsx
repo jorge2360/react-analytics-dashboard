@@ -11,7 +11,7 @@ function Sidebar() {
         <p className="mt-1 text-sm text-slate-500">Dashboard empresarial</p>
 
         <nav className="mt-8 space-y-2">
-          <a className="block rounded-lg bg-blue-50 px-4 py-2 text-blue-700" href="#">
+          <a className="block rounded-lg bg-blue-50 px-4 py-2 text-blue-700 transition hover:bg-blue-100" href="#">
             Dashboard
           </a>
         </nav>

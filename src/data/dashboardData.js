@@ -1,27 +1,38 @@
+import {
+  DollarSign,
+  Users,
+  ShoppingCart,
+  TrendingUp,
+} from 'lucide-react'
+
 export const metrics = [
   {
     id: 1,
     title: 'Ventas totales',
     value: 'Q 48,750',
     description: 'Ingresos del mes actual',
+    icon: DollarSign,
   },
   {
     id: 2,
     title: 'Clientes activos',
     value: '1,284',
     description: 'Clientes registrados activos',
+    icon: Users,
   },
   {
     id: 3,
     title: 'Pedidos',
     value: '356',
     description: 'Pedidos procesados este mes',
+    icon: ShoppingCart,
   },
   {
     id: 4,
     title: 'Conversión',
     value: '18.4%',
     description: 'Tasa de conversión mensual',
+    icon: TrendingUp,
   },
 ]
 export const salesData = [
@@ -77,10 +88,10 @@ export const periodData = {
   mensual: {
     label: 'Mensual',
     metrics: [
-      { id: 1, title: 'Ventas totales', value: 'Q 48,750', description: 'Ingresos del mes actual' },
-      { id: 2, title: 'Clientes activos', value: '1,284', description: 'Clientes activos del mes' },
-      { id: 3, title: 'Pedidos', value: '356', description: 'Pedidos procesados este mes' },
-      { id: 4, title: 'Conversión', value: '18.4%', description: 'Tasa de conversión mensual' },
+      { id: 1, title: 'Ventas totales', value: 'Q 48,750', description: 'Ingresos del mes actual', icon: DollarSign },
+      { id: 2, title: 'Clientes activos', value: '1,284', description: 'Clientes activos del mes', icon: Users },
+      { id: 3, title: 'Pedidos', value: '356', description: 'Pedidos procesados este mes', icon: ShoppingCart },
+      { id: 4, title: 'Conversión', value: '18.4%', description: 'Tasa de conversión mensual', icon: TrendingUp },
     ],
     salesData: [
       { month: 'Sem 1', ventas: 12000 },
@@ -92,10 +103,10 @@ export const periodData = {
   trimestral: {
     label: 'Trimestral',
     metrics: [
-      { id: 1, title: 'Ventas totales', value: 'Q 138,400', description: 'Ingresos del trimestre' },
-      { id: 2, title: 'Clientes activos', value: '3,420', description: 'Clientes activos del trimestre' },
-      { id: 3, title: 'Pedidos', value: '1,024', description: 'Pedidos procesados este trimestre' },
-      { id: 4, title: 'Conversión', value: '21.2%', description: 'Tasa de conversión trimestral' },
+      { id: 1, title: 'Ventas totales', value: 'Q 138,400', description: 'Ingresos del trimestre', icon: DollarSign },
+      { id: 2, title: 'Clientes activos', value: '3,420', description: 'Clientes activos del trimestre', icon: Users },
+      { id: 3, title: 'Pedidos', value: '1,024', description: 'Pedidos procesados este trimestre', icon: ShoppingCart },
+      { id: 4, title: 'Conversión', value: '21.2%', description: 'Tasa de conversión trimestral', icon: TrendingUp },
     ],
     salesData: [
       { month: 'Ene', ventas: 40500 },
@@ -106,10 +117,10 @@ export const periodData = {
   anual: {
     label: 'Anual',
     metrics: [
-      { id: 1, title: 'Ventas totales', value: 'Q 620,900', description: 'Ingresos del año actual' },
-      { id: 2, title: 'Clientes activos', value: '12,840', description: 'Clientes activos del año' },
-      { id: 3, title: 'Pedidos', value: '4,356', description: 'Pedidos procesados este año' },
-      { id: 4, title: 'Conversión', value: '24.8%', description: 'Tasa de conversión anual' },
+      { id: 1, title: 'Ventas totales', value: 'Q 620,900', description: 'Ingresos del año actual', icon: DollarSign },
+      { id: 2, title: 'Clientes activos', value: '12,840', description: 'Clientes activos del año', icon: Users },
+      { id: 3, title: 'Pedidos', value: '4,356', description: 'Pedidos procesados este año', icon: ShoppingCart },
+      { id: 4, title: 'Conversión', value: '24.8%', description: 'Tasa de conversión anual', icon: TrendingUp },
     ],
     salesData: [
       { month: 'Q1', ventas: 138400 },
