@@ -100,6 +100,10 @@ http://localhost:5173
 
 ---
 
+## Demo en línea
+
+https://react-analytics-dashboard-neon.vercel.app/
+
 ## Autor
 
 Jorge García
